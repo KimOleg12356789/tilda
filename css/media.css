@@ -1,0 +1,145 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+.container.galer {
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+.galer__tit {
+    font-size: 20px;
+}
+
+  
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 888px) {
+
+.galer__text {
+    width: 100%;
+    order: 2;
+}
+
+.galer__is {
+    width: 100%;
+    color: #000;
+    order: 1;
+}
+
+.galer__tit {
+    display: none;
+}
+
+.galer__tit.mab {
+    display: block;
+}
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+
+.iss.slick-initialized.slick-slider {
+    width: auto;
+    margin: 0 auto;
+}
+
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+
+a.but__1 {
+    width: 100%;
+}
+
+a.but__2 {
+    width: 100%;
+}
+
+.but__bl {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galer__icon__is {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.prise__old {
+    font-size: 18px;
+}
+
+.prise__new {
+    font-size: 18px;
+}
+
+.prise__tit {
+    font-size: 18px;
+}
+
+.prise__in {
+    display: flex;
+    margin: 0px 0 10px;
+    gap: 10px;
+}
+  
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+.prise__old {
+    font-size: 16px;
+}
+
+.prise__new {
+    font-size: 16px;
+}
+
+.prise__tit {
+    font-size: 16px;
+}
+
+}
